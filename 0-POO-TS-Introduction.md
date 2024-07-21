@@ -1,4 +1,4 @@
-# Programation Orientée objet 1
+# La Programation Orientée objet 
 
 ## POO : c'est un paradigme de programmation centré autour des objets et non des fonctions
 
