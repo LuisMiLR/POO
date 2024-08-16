@@ -1,4 +1,4 @@
-//Prototype (__proto__) : c'est un object qui regreoupe l'ensemble des methodes d'un objet
+//Prototype (__proto__) : c'est un object qui regroupe l'ensemble des methodes d'un objet
 function Utilisateur(noms, email, ...amis) {
     this.noms = noms;
     this.email = email;

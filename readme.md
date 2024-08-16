@@ -1,5 +1,7 @@
 # Documentation sur la Programmation Orientée Objet (POO)
 
+![Oop Logo](images/oop_logo.png)
+
 ## Description
 
 Cette documentation personnelle couvre les concepts fondamentaux de la Programmation Orientée Objet (POO) avec typeScript. Elle inclut des explications sur les principaux piliers de la POO, ainsi que des exemples pratiques en TypeScript. Ce référentiel est conçu pour aider à comprendre et à appliquer les concepts de la POO dans des projets de développement.
