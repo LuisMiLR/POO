@@ -1,6 +1,6 @@
 # Documentation sur la Programmation Orientée Objet (POO)
 
-![Oop Logo](images/oop_logo.png)
+![oop Logo](images/oop_logo.png)
 
 ## Description
 
