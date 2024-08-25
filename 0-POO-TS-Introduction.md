@@ -1,7 +1,7 @@
 # La Programation Orientée objet 
 
 ## POO : c'est un paradigme de programmation centré autour des objets et non des fonctions
-
+La programmation orientée objet (OOP), un paradigme de programmation, s'articule autour de la représentation d'entités du monde réel sous forme d'objets, facilitant ainsi une meilleure organisation du code, sa réutilisabilité et sa maintenabilité.
 ### Les 4 piliers de la POO
 
 1. Encapsulation: 

@@ -21,8 +21,7 @@ La POO est un paradigme de programmation centré autour des objets plutôt que d
 3. **Héritage**
 4. **Polymorphisme**
 
-
-### 3. Exemple d'un objet : téléphone
+### 3. Exemples
 
 ### 4. Modificateurs de Visibilité
 
