@@ -99,4 +99,9 @@ Lorsque l'initialisation des propriétés est simple et fixe, vous pouvez initia
 *Avec Constructeur : 
 Lorsque vous avez besoin d'une initialisation plus flexible ou de logique spécifique, vous utilisez un constructeur. Cela permet une initialisation conditionnelle ou basée sur des arguments.
 
+---
+Lorsqu'une classe dérivée (dans ce cas, Chien) hérite d'une classe de base (dans ce cas, Animal), il doit appeler le constructeur de la classe de base en utilisant super() dans son propre constructeur.
+explication : si on vient redéfinir le construteur, il doit appeller le constructeur de la class parent
+par défaut on en herite (du constructeur) mais si vous voulez spécialiser le constructeur, il faut appeler 'super' 
+super appelle le constructeur parent 
 */

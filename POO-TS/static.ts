@@ -8,7 +8,7 @@ Récapitulatif des Propriétés et Initialisation
 
 Propriétés d'Instance :
 
-Dans vos exemples précédents (comme avec CompteBancaire), les propriétés d'instance sont initialisées directement dans le constructeur ou en utilisant une valeur par défaut lors de leur déclaration. Ces propriétés sont spécifiques à chaque instance de la classe.
+Dans les exemples précédents (comme avec CompteBancaire), les propriétés d'instance sont initialisées directement dans le constructeur ou en utilisant une valeur par défaut lors de leur déclaration. Ces propriétés sont spécifiques à chaque instance de la classe.
 
 *Propriétés Statistiques :
 
@@ -50,4 +50,19 @@ class MathUtil {
   }
   console.log(MathUtil.add(1,1))
 
-  //voir le design pattern singleton : exploite cette capacité à pourvoir stocker des choses de façon static pour mettre à disposition une meme instance d'objet pour tout le programme
+  //voir le design pattern singleton : exploite cette capacité à pourvoir stocker des choses de façon static pour mettre à disposition une meme instance d'objet pour tout le programme.
+
+  //implémentation 
+
+  /*
+  Allons plus loin en créant dans Car une méthode static useRace qui recevra en argument un type Vehicle.
+
+  
+  static useRace(vehicule: Vehicle) {
+    console.log(
+      `Le véhicule est de type ${vehicule.constructor.name} va démarrer!`
+    );
+    vehicule.start();
+}
+
+  */
