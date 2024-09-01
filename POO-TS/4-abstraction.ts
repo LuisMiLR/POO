@@ -59,3 +59,25 @@ class Sorcier extends Personnage {
     }
 
 }
+
+//*Difference entre interface et abstraction 
+
+/*
+Alors quelles différences avec les interfaces d’implémentation?
+
+* Concernant les classes abstraites: 
+peuvent contenir des méthodes abstraites (méthodes sans implémentation) et des méthodes concrètes (méthodes avec une implémentation).
+peuvent contenir des propriétés avec des valeurs par défaut
+sert généralement de modèle de base pour d'autres classes. Elle peut être étendue par des sous-classes.
+les sous-classes doivent implémenter toutes les méthodes abstraites de la classe abstraite
+une classe ne peut étendre qu'une seule classe abstraite, car TypeScript prend en charge l'héritage simple seulement.
+
+*Concernant les interfaces: 
+ne contiennent que des signatures de méthodes (méthodes sans implémentation) et ne peuvent pas avoir de méthodes avec une implémentation
+ne peuvent pas contenir de propriétés avec des valeurs par défaut.
+Une classe peut implémenter plusieurs interfaces séparées par une virgule : 
+(ex: implements Interface1, Interface2)
+Lorsqu'une classe implémente une interface, elle doit fournir une implémentation pour toutes les méthodes de l'interface.
+Les interfaces sont souvent utilisées pour définir des contrats que les objets doivent respecter, sans imposer une hiérarchie de classes.
+
+*/
